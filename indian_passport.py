@@ -6,7 +6,7 @@ from passporteye import read_mrz
 import pycountry
 
 # Configure path to tesseract executable
-pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+#pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 
 # Streamlit Page Setup
 st.set_page_config(page_title="🛂 EU Passport Extractor", layout="centered")

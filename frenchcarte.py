@@ -7,7 +7,7 @@ import pycountry
 from datetime import datetime
 
 # Configure path to Tesseract executable (adjust as needed)
-#pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+
 
 # --- Streamlit Page Setup ---
 st.set_page_config(page_title="Extracteur Carte Nationale d'Identité Française", layout="centered")

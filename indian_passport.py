@@ -9,8 +9,8 @@ import pycountry
 
 
 # Streamlit Page Setup
-st.set_page_config(page_title="🛂 EU Passport Extractor", layout="centered")
-st.title("🛂 EU Passport Information Extractor")
+st.set_page_config(page_title="🇮🇳 Indian Passport Extractor", layout="centered")
+st.title("🇮🇳 Indian Passport Information Extractor")
 
 # File Upload
 uploaded_file = st.file_uploader("📷 Upload an image of the passport", type=["jpg", "jpeg", "png"])

@@ -10,8 +10,8 @@ from datetime import datetime
 
 
 # --- Streamlit Page Setup ---
-st.set_page_config(page_title="Extracteur Carte Nationale d'Identité Française", layout="centered")
-st.title("Extracteur d'Informations de la Carte Nationale d'Identité Française")
+st.set_page_config(page_title="🇫🇷 Extracteur Carte Nationale d'Identité Française 🥐", layout="centered")
+st.title("🇫🇷 Extracteur d'Informations de la Carte Nationale d'Identité Française 🥐")
 
 # File upload
 uploaded_file = st.file_uploader("📷 Téléchargez une image de la pièce d'identité", type=["jpg", "jpeg", "png"])
